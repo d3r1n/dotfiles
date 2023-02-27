@@ -1,5 +1,5 @@
 PLUGINS INSTALLED:
-- Packer [Plugin Manager]
+- Lazy.nvim [Plugin Manager]
 - NvimTree [File Explorer]
 - NvimWebDevIcons [File Explorer Icons]
 - Lualine [Status Line]

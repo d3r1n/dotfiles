@@ -1,6 +1,10 @@
 -- Global options
 -- see `:help vim.o` for details
 
+-- Timeout for mappings
+vim.o.timeout = true
+vim.o.timeoutlen = 300
+
 -- Enable line numbers and relative line numbers
 vim.wo.number = true
 vim.wo.relativenumber = true
