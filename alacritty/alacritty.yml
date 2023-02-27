@@ -65,7 +65,7 @@ key_bindings:
   - { key: K,        mods: Alt,     chars: "\x1bk"           }
   - { key: L,        mods: Alt,     chars: "\x1bl"           }
   - { key: M,        mods: Alt,     chars: "\x1bm"           }
-  - { key: N,        mods: Alt, chars: "\x1bn"               }
+  - { key: N,        mods: Alt,     chars: "\x1bn"           }
   - { key: O,        mods: Alt,     chars: "\x1bo"           }
   - { key: P,        mods: Alt,     chars: "\x1bp"           }
   - { key: Q,        mods: Alt,     chars: "\x1bq"           }
