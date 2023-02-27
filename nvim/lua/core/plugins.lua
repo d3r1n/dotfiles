@@ -29,6 +29,7 @@ require("lazy").setup({
 	'nvim-tree/nvim-tree.lua' ,				-- Tree/File Explorer
 	'nvim-tree/nvim-web-devicons', 			-- devicons for neovim
 	'nvim-lualine/lualine.nvim',			-- Statusline
+	'max397574/better-escape.nvim',			-- Better escape
 
 	{
 		"folke/which-key.nvim",
