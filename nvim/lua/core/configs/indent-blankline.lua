@@ -7,6 +7,7 @@ vim.cmd [[highlight IndentBlanklineIndent4 guifg=#928374 gui=nocombine]]
 vim.cmd [[highlight IndentBlanklineIndent5 guifg=#928374 gui=nocombine]]
 
 require("indent_blankline").setup {
+    char = '┇',
 	buftype_exclude = {"terminal"},
 	filetype_exclude = {"help", "packer", "NvimTree", "Trouble"},
 	space_char_blankline = " ",

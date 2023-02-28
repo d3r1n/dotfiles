@@ -10,9 +10,9 @@ local on_attach = function(_, bufnr)
 end
 
 local servers = {
-	-- clangd = {},
 	-- gopls = {},
-	-- pyright = {},
+	clangd = {},
+    pyright = {},
 	rust_analyzer = {},
 	tsserver = {},
 

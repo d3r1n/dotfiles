@@ -1,8 +1,6 @@
 -- Enable terminal gui colors
-vim.o.termguicolors = true
-vim.o.background = 'dark'
 require('gruvbox').setup {
-	italic = true,	
+	italic = true,
 }
 
 -- Change colorscheme/theme

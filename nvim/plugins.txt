@@ -1,0 +1,27 @@
+PLUGINS INSTALLED:
+    ● Comment.nvim
+    ● LuaSnip
+    ● barbar.nvim
+    ● better-escape.nvim
+    ● cmp-nvim-lsp
+    ● cmp_luasnip
+    ● fidget.nvim
+    ● gruvbox.nvim
+    ● indent-blankline.nvim
+    ● lazy.nvim
+    ● lualine.nvim
+    ● mason-lspconfig.nvim
+    ● mason.nvim
+    ● neodev.nvim
+    ● nvim-autopairs
+    ● nvim-cmp
+    ● nvim-lspconfig
+    ● nvim-tree.lua
+    ● nvim-treesitter
+    ● nvim-ts-context-commentstring
+    ● nvim-web-devicons
+    ● plenary.nvim
+    ● telescope-fzf-native.nvim
+    ● telescope.nvim
+    ● trouble.nvim
+    ● which-key.nvim

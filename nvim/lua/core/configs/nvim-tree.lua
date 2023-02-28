@@ -6,13 +6,18 @@ require('nvim-tree').setup {
 	view = {
 		mappings = {
 			list = {
-				{ key='h', action='cd'}
+                {key = {'l'}, action='edit', mode = 'n'},
+                {key = {'h'}, action='cd',   mode = 'n'},
 			}
 		}
 	},
 	actions = {
 		change_dir = {
-			enable = true
+			enable = true,
+            global = true,
 		}
 	},
+    diagnostics = {
+        enable = true
+    },
 }
