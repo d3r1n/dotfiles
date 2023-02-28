@@ -1,4 +1,3 @@
--- Enable terminal gui colors
 require('gruvbox').setup {
 	italic = true,
 }
