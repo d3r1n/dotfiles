@@ -25,3 +25,5 @@ PLUGINS INSTALLED:
     ● telescope.nvim
     ● trouble.nvim
     ● which-key.nvim
+    ● presence.nvim
+    ● friendly-snippets

@@ -18,47 +18,42 @@ vim.g.maplocalleader = ' '
 
 -- Plugin Setup
 require("lazy").setup({
-	-- Gruvbox theme
+	'lukas-reineke/indent-blankline.nvim', 	-- Indentation lines
+	'nvim-tree/nvim-tree.lua' ,				-- Tree/File Explorer
+	'nvim-tree/nvim-web-devicons', 			-- devicons for neovim
+	'nvim-lualine/lualine.nvim',			-- Statusline
+	'max397574/better-escape.nvim',			-- Better escape
+    'andweeb/presence.nvim',                -- Discord Presence
+	'romgrk/barbar.nvim', 					-- Bufferline
+	'windwp/nvim-autopairs',				-- Autopairs
+	'folke/neodev.nvim',                    -- Neodev
+	'folke/trouble.nvim',                   -- Trouble
+    'folke/which-key.nvim',                 -- WhichKey
+    'rafamadriz/friendly-snippets',         -- VSCode like built-in snippets
+
+    -- Gruvbox theme
 	{
 		'ellisonleao/gruvbox.nvim',
 		lazy = false, 		-- Load immediately
 		priority = 10000, 	-- Load before other plugins
 	},
 
-	'lukas-reineke/indent-blankline.nvim', 	-- Indentation lines
-	'nvim-tree/nvim-tree.lua' ,				-- Tree/File Explorer
-	'nvim-tree/nvim-web-devicons', 			-- devicons for neovim
-	'nvim-lualine/lualine.nvim',			-- Statusline
-	'max397574/better-escape.nvim',			-- Better escape
-
-	{
-		"folke/which-key.nvim",
-		lazy = false,
-		config = function()
-		  vim.o.timeout = true
-		  vim.o.timeoutlen = 300
-		  require("which-key").setup({
-			-- your configuration comes here
-			-- or leave it empty to use the default settings
-			-- refer to the configuration section below
-		  })
-		end,
-	  },
-
 	-- Treesitter
 	{"nvim-treesitter/nvim-treesitter", build = ":TSUpdate"},
 
 	-- Telescope
 	{
-		'nvim-telescope/telescope.nvim',	-- telescope
+		'nvim-telescope/telescope.nvim',
 		version = '0.1.x',
 		dependencies = {
 			'nvim-lua/plenary.nvim',
-			{'nvim-telescope/telescope-fzf-native.nvim', build = 'make' }, -- fzf-native
+			-- fzf-native
+            {
+                'nvim-telescope/telescope-fzf-native.nvim',
+                build = 'make'
+            },
 		}
 	},
-	'romgrk/barbar.nvim', 					-- Bufferline
-	'windwp/nvim-autopairs',				-- Autopairs
 
 	-- Autocompletion
 	{
@@ -90,7 +85,4 @@ require("lazy").setup({
 		-- TS/JSX supports
 		dependencies = 'JoosepAlviste/nvim-ts-context-commentstring'
 	},
-
-	'folke/neodev.nvim',	-- Neodev
-	'folke/trouble.nvim', -- Trouble
 })
