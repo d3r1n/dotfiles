@@ -21,4 +21,9 @@ require('nvim-tree').setup {
     diagnostics = {
         enable = true
     },
+    renderer = {
+        indent_markers = {
+            enable = true
+        },
+    },
 }

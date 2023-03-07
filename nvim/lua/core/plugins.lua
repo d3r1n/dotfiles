@@ -1,14 +1,14 @@
 -- Lazy.nvim Bootstrapping
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
-  vim.fn.system({
-    "git",
-    "clone",
-    "--filter=blob:none",
-    "https://github.com/folke/lazy.nvim.git",
-    "--branch=stable", -- latest stable release
-    lazypath,
-  })
+    vim.fn.system({
+        "git",
+        "clone",
+        "--filter=blob:none",
+        "https://github.com/folke/lazy.nvim.git",
+        "--branch=stable", -- latest stable release
+        lazypath,
+    })
 end
 vim.opt.rtp:prepend(lazypath)
 
@@ -18,71 +18,72 @@ vim.g.maplocalleader = ' '
 
 -- Plugin Setup
 require("lazy").setup({
-	'lukas-reineke/indent-blankline.nvim', 	-- Indentation lines
-	'nvim-tree/nvim-tree.lua' ,				-- Tree/File Explorer
-	'nvim-tree/nvim-web-devicons', 			-- devicons for neovim
-	'nvim-lualine/lualine.nvim',			-- Statusline
-	'max397574/better-escape.nvim',			-- Better escape
-    'andweeb/presence.nvim',                -- Discord Presence
-	'romgrk/barbar.nvim', 					-- Bufferline
-	'windwp/nvim-autopairs',				-- Autopairs
-	'folke/neodev.nvim',                    -- Neodev
-	'folke/trouble.nvim',                   -- Trouble
-    'folke/which-key.nvim',                 -- WhichKey
-    'rafamadriz/friendly-snippets',         -- VSCode like built-in snippets
+    'lukas-reineke/indent-blankline.nvim',      -- Indentation lines
+    'nvim-tree/nvim-tree.lua',                  -- Tree/File Explorer
+    'nvim-tree/nvim-web-devicons',              -- devicons for neovim
+    'nvim-lualine/lualine.nvim',                -- Statusline
+    'max397574/better-escape.nvim',             -- Better escape
+    'andweeb/presence.nvim',                    -- Discord Presence
+    'romgrk/barbar.nvim',                       -- Bufferline
+    'windwp/nvim-autopairs',                    -- Autopairs
+    'folke/neodev.nvim',                        -- Neodev
+    'folke/trouble.nvim',                       -- Trouble
+    'folke/which-key.nvim',                     -- WhichKey
+    'rafamadriz/friendly-snippets',             -- VSCode like built-in snippets
+    'wakatime/vim-wakatime',                    -- Wakatime integration
 
     -- Gruvbox theme
-	{
-		'ellisonleao/gruvbox.nvim',
-		lazy = false, 		-- Load immediately
-		priority = 10000, 	-- Load before other plugins
-	},
+    {
+        'ellisonleao/gruvbox.nvim',
+        lazy = false, -- Load immediately
+        priority = 10000, -- Load before other plugins
+    },
 
-	-- Treesitter
-	{"nvim-treesitter/nvim-treesitter", build = ":TSUpdate"},
+    -- Treesitter
+    { "nvim-treesitter/nvim-treesitter", build = ":TSUpdate" },
 
-	-- Telescope
-	{
-		'nvim-telescope/telescope.nvim',
-		version = '0.1.x',
-		dependencies = {
-			'nvim-lua/plenary.nvim',
-			-- fzf-native
+    -- Telescope
+    {
+        'nvim-telescope/telescope.nvim',
+        version = '0.1.x',
+        dependencies = {
+            'nvim-lua/plenary.nvim',
+            -- fzf-native
             {
                 'nvim-telescope/telescope-fzf-native.nvim',
                 build = 'make'
             },
-		}
-	},
+        }
+    },
 
-	-- Autocompletion
-	{
-		'hrsh7th/nvim-cmp',
-		dependencies = {
-			'hrsh7th/cmp-nvim-lsp', 	-- LSP support for nvim-cmp
-			'L3MON4D3/LuaSnip', 		-- Snippets
-			'saadparwaiz1/cmp_luasnip' 	-- Snippets support for nvim-cmp
-		},
-	},
+    -- Autocompletion
+    {
+        'hrsh7th/nvim-cmp',
+        dependencies = {
+            'hrsh7th/cmp-nvim-lsp', -- LSP support for nvim-cmp
+            'L3MON4D3/LuaSnip', -- Snippets
+            'saadparwaiz1/cmp_luasnip' -- Snippets support for nvim-cmp
+        },
+    },
 
-	-- LSP
-	{
-		'neovim/nvim-lspconfig',
-		dependencies = {
-			-- Automatically install LSPs
-			-- to stdpath for neovim
-			'williamboman/mason.nvim',
-			'williamboman/mason-lspconfig.nvim',
+    -- LSP
+    {
+        'neovim/nvim-lspconfig',
+        dependencies = {
+            -- Automatically install LSPs
+            -- to stdpath for neovim
+            'williamboman/mason.nvim',
+            'williamboman/mason-lspconfig.nvim',
 
-			-- Useful status updates for LSP
-			'j-hui/fidget.nvim',
-		}
-	},
+            -- Useful status updates for LSP
+            'j-hui/fidget.nvim',
+        }
+    },
 
-	-- Comment
-	{
-		'numToStr/Comment.nvim',
-		-- TS/JSX supports
-		dependencies = 'JoosepAlviste/nvim-ts-context-commentstring'
-	},
+    -- Comment
+    {
+        'numToStr/Comment.nvim',
+        -- TS/JSX supports
+        dependencies = 'JoosepAlviste/nvim-ts-context-commentstring'
+    },
 })

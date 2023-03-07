@@ -27,12 +27,13 @@ vim.wo.signcolumn = 'yes'
 vim.o.completeopt = 'menuone,noselect'
 
 -- set tab sizing
-vim.o.tabstop = 4
 vim.o.shiftwidth = 4
-vim.o.softtabstop = 4
+vim.o.smarttab = true
 vim.o.expandtab = true
+vim.o.tabstop = 8
+vim.o.softtabstop = 0
 
 -- Theme options
 vim.o.termguicolors = true
 vim.o.background = 'dark'
-
+vim.cmd [[highlight EndOfBuffer guifg=bg]] -- Get rid of repeating tildes at the end of the buffer

@@ -1,5 +1,5 @@
 require('gruvbox').setup {
-	italic = true,
+    italic = true,
 }
 
 -- Change colorscheme/theme
