@@ -31,6 +31,7 @@ require("lazy").setup({
     'folke/which-key.nvim',                     -- WhichKey
     'rafamadriz/friendly-snippets',             -- VSCode like built-in snippets
     'wakatime/vim-wakatime',                    -- Wakatime integration
+    'gpanders/editorconfig.nvim',               -- .editorconfig support for neovim
 
     -- Gruvbox theme
     {
@@ -62,7 +63,11 @@ require("lazy").setup({
         dependencies = {
             'hrsh7th/cmp-nvim-lsp', -- LSP support for nvim-cmp
             'L3MON4D3/LuaSnip', -- Snippets
-            'saadparwaiz1/cmp_luasnip' -- Snippets support for nvim-cmp
+            'saadparwaiz1/cmp_luasnip', -- Snippets support for nvim-cmp
+            'hrsh7th/cmp-buffer', -- Buffer compeletions
+            'hrsh7th/cmp-path', -- Filesystem and path compeletions
+            'hrsh7th/cmp-cmdline', -- Command line compeletions
+            'onsails/lspkind.nvim' -- Icons for compeletion menu
         },
     },
 

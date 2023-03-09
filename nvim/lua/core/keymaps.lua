@@ -81,14 +81,3 @@ end
 
 map('n', '<leader>wl', wlist_folders, { desc = '[LSP] [W]orkspace [L]ist Folders' })
 
-local formatting_opts = {
-    tabSize            = 4,
-    insertSpaces       = true,
-    insertFinalNewLine = true,
-}
-
-local function lsp_format()
-    vim.lsp.buf.format(formatting_opts)
-end
-
-map('n', '<leader>fb', lsp_format, { desc = '[LSP] [F]ormat [F]ile' })

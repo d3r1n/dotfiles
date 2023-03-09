@@ -27,3 +27,4 @@ PLUGINS INSTALLED:
     ● which-key.nvim
     ● presence.nvim
     ● friendly-snippets
+    ● vim-wakatime

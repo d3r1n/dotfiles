@@ -4,3 +4,4 @@ local function change_filetype(opts)
 end
 
 vim.api.nvim_create_user_command('FileType', change_filetype, { nargs = 1 })
+
