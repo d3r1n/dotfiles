@@ -13,7 +13,7 @@ You can view all installed plugins at [`nvim/plugins.txt`](./nvim/plugins.txt)
 - Terminal: Alacritty
 - Shell: Zsh + antigen + oh-my-zsh
 - Editor: Neovim
-- File manager: NNN (n³)
+- File manager: xplr
 - Browser: Chromium/Chrome
 - Music player: Spotify
 - Video player: VLC
