@@ -11,7 +11,7 @@ You can view all installed plugins at [`nvim/plugins.txt`](./nvim/plugins.txt)
 - OS: Arch Linux
 - WM: None (I'm not using a window manager for now)
 - Terminal: Alacritty
-- Shell: Zsh + antigen + oh-my-zsh
+- Shell: fish + oh-my-fish
 - Editor: Neovim
 - File manager: xplr
 - Browser: Chromium/Chrome
