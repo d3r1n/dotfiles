@@ -5,7 +5,7 @@ require('presence').setup({
     neovim_image_text   = "Neovim, Best Text Editor",   -- Text displayed when hovered over the Neovim image
     main_image          = "file",                       -- Main image display (either "neovim" or "file")
     log_level           = nil,                          -- Log messages at or above this level (one of the following: "debug", "info", "warn", "error")
-    enable_line_number  = true,                         -- Displays the current line number instead of the current project
+    enable_line_number  = false,                         -- Displays the current line number instead of the current project
     buttons             = true,                         -- Configure Rich Presence button(s), either a boolean to enable/disable, a static table (`{{ label = "<label>", url = "<url>" }, ...}`, or a function(buffer: string, repo_url: string|nil): table)
     show_time           = true,                         -- Show the timer
     -- Rich Presence text options

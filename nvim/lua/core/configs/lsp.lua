@@ -43,6 +43,11 @@ local servers = {
             }
         },
     },
+    yamlls = {
+        yaml = {
+            keyOrdering = false
+        }
+    },
 }
 
 -- nvim-cmp supports additional completion capabilities, so broadcast that to servers

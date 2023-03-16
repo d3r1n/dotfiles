@@ -7,3 +7,4 @@ alias nv="nvim"
 alias xp="xplr"
 
 set PATH $HOME/.cargo/bin $PATH
+set EDITOR nvim

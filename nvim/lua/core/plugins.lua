@@ -31,7 +31,7 @@ require("lazy").setup({
     'folke/which-key.nvim',                     -- WhichKey
     'rafamadriz/friendly-snippets',             -- VSCode like built-in snippets
     'wakatime/vim-wakatime',                    -- Wakatime integration
-    'gpanders/editorconfig.nvim',               -- .editorconfig support for neovim
+    --'gpanders/editorconfig.nvim',               -- .editorconfig support for neovim
 
     -- Gruvbox theme
     {

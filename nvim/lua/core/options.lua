@@ -27,11 +27,11 @@ vim.wo.signcolumn = 'yes'
 vim.o.completeopt = 'menuone,noselect'
 
 -- set tab sizing
-vim.o.shiftwidth = 4
-vim.o.smarttab = true
-vim.o.expandtab = true
-vim.o.tabstop = 8
-vim.o.softtabstop = 0
+vim.go.shiftwidth = 4
+vim.go.smarttab = true
+vim.go.expandtab = true
+vim.go.tabstop = 4
+vim.go.softtabstop = 0
 
 -- Theme options
 vim.o.termguicolors = true

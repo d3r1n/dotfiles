@@ -18,7 +18,7 @@ You can view all installed plugins at [`nvim/plugins.txt`](./nvim/plugins.txt)
 - Music player: Spotify
 - Video player: VLC
 - Image viewer: qView
-- Terminal multiplexer: Tmux
+- Terminal multiplexer: Zellij
 - Terminal Recorder: Asciinema
 - File viewer: Bat
 - Font: Nerd Font Fira Code
