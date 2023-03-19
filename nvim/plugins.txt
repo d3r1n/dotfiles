@@ -3,12 +3,16 @@ PLUGINS INSTALLED:
     ● LuaSnip
     ● barbar.nvim
     ● better-escape.nvim
+    ● cmp-buffer
+    ● cmp-cmdline
     ● cmp-nvim-lsp
+    ● cmp-path
     ● cmp_luasnip
     ● fidget.nvim
-    ● gruvbox.nvim
+    ● friendly-snippets
     ● indent-blankline.nvim
-    ● lazy.nvim
+    ● lazy.nvim 1.32ms
+    ● lspkind.nvim
     ● lualine.nvim
     ● mason-lspconfig.nvim
     ● mason.nvim
@@ -21,10 +25,10 @@ PLUGINS INSTALLED:
     ● nvim-ts-context-commentstring
     ● nvim-web-devicons
     ● plenary.nvim
+    ● presence.nvim
     ● telescope-fzf-native.nvim
     ● telescope.nvim
+    ● tokyonight.nvim
     ● trouble.nvim
-    ● which-key.nvim
-    ● presence.nvim
-    ● friendly-snippets
     ● vim-wakatime
+    ● which-key.nvim 

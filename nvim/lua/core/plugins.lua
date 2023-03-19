@@ -33,11 +33,11 @@ require("lazy").setup({
     'wakatime/vim-wakatime',                    -- Wakatime integration
     --'gpanders/editorconfig.nvim',               -- .editorconfig support for neovim
 
-    -- Gruvbox theme
+    -- Tokyo Night theme
     {
-        'ellisonleao/gruvbox.nvim',
-        lazy = false, -- Load immediately
-        priority = 10000, -- Load before other plugins
+        'folke/tokyonight.nvim',
+        lazy = false,
+        priority = 10000,
     },
 
     -- Treesitter

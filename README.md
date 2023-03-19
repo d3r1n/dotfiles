@@ -8,7 +8,7 @@ This repository currently not complete, I don't recommend using my configuration
 You can view all installed plugins at [`nvim/plugins.txt`](./nvim/plugins.txt)
 
 ## My setup
-- OS: Arch Linux
+- OS: Arco Linux
 - WM: None (I'm not using a window manager for now)
 - Terminal: Alacritty
 - Shell: fish + oh-my-fish
@@ -20,7 +20,6 @@ You can view all installed plugins at [`nvim/plugins.txt`](./nvim/plugins.txt)
 - Image viewer: qView
 - Terminal multiplexer: Zellij
 - Terminal Recorder: Asciinema
-- File viewer: Bat
 - Font: Nerd Font Fira Code
 - Color scheme: Gruvbox
 - C/C++ compiler + Debugger: CLang + GDB
@@ -34,3 +33,4 @@ You can view all installed plugins at [`nvim/plugins.txt`](./nvim/plugins.txt)
 - LoC counter: tokei
 - Programming Tracker: wakatime + wakapi
 - Password manager: Bitwarden
+- Browser Tab Manager: Taby

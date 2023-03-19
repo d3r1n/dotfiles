@@ -1,6 +1,6 @@
-require('gruvbox').setup {
-    italic = true,
+require('tokyonight').setup {
+    style = 'moon',
 }
 
 -- Change colorscheme/theme
-vim.cmd [[ colorscheme gruvbox ]]
+vim.cmd [[ colorscheme tokyonight ]]

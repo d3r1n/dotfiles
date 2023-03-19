@@ -1,7 +1,7 @@
 -- Description: Lualine statusline configuration
 require('lualine').setup {
     options = {
-        theme = 'gruvbox',
+        theme = 'tokyonight',
         section_separators = { left = '', right = '' }, -- Fira Code Glyphs
         component_separators = { left = '|', right = '|' }, -- Fira Code Glyphs
         icons_enabled = true,
