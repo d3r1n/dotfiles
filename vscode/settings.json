@@ -53,7 +53,7 @@
 	},
 	"terminal.external.linuxExec": "fish",
 	"terminal.integrated.defaultProfile.linux": "fish",
-	"workbench.colorTheme": "Gruvbox Dark Medium",
+	"workbench.colorTheme": "Tokyo Night Storm",
 	"explorer.compactFolders": false,
 	"editor.lineHeight": 30,
 	"workbench.layoutControl.enabled": true,
@@ -73,7 +73,21 @@
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"editor.fontSize": 14,
-	"workbench.sideBar.location": "right",
 	"telemetry.telemetryLevel": "off",
-	"discord.idleTimeout": 900
+	"discord.idleTimeout": 900,
+	"window.zoomLevel": 1,
+	"workbench.sideBar.location": "right",
+	"editor.stickyTabStops": true,
+	"editor.smoothScrolling": true,
+	
+	// Vim Settings
+	"vim.leader": "<space>",
+	"vim.useCtrlKeys": true,
+	"vim.easymotion": true,
+	"vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
     }
+  ],
+}

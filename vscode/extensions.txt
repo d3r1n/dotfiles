@@ -1,5 +1,6 @@
 aaron-bond.better-comments
 bungcip.better-toml
+enkia.tokyo-night
 esbenp.prettier-vscode
 GitHub.copilot
 golang.go
@@ -21,4 +22,4 @@ vscodevim.vim
 Vue.volar
 Vue.vscode-typescript-vue-plugin
 WakaTime.vscode-wakatime
-yzhang.markdown-all-in-one
+yzhang.markdown-all-in-on
