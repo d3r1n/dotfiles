@@ -3,21 +3,22 @@ This repository currently not complete, I don't recommend using my configuration
 
 # d3r1n's dotfiles
 
-## Neovim
+## VSCode
 
-You can view all installed plugins at [`nvim/plugins.txt`](./nvim/plugins.txt)
+You can view all installed plugins at [`vscode/extensions.txt`](./vscode/extensions.txt)
 
 ## My setup
 - OS: Arco Linux
 - WM: None (I'm not using a window manager for now)
 - Terminal: Alacritty
 - Shell: fish + oh-my-fish
-- Editor: Neovim
+- Editor: VSCode
 - File manager: xplr
 - Browser: Chromium/Chrome
 - Music player: Spotify
 - Video player: VLC
 - Image viewer: qView
+- Screen Recorder: OBS
 - Terminal multiplexer: Zellij
 - Terminal Recorder: Asciinema
 - Font: Nerd Font Fira Code
@@ -34,3 +35,12 @@ You can view all installed plugins at [`nvim/plugins.txt`](./nvim/plugins.txt)
 - Programming Tracker: wakatime + wakapi
 - Password manager: Bitwarden
 - Browser Tab Manager: Taby
+
+<details>
+    <summary><h2>Other Tools I Like</h2></summary>
+
+    - Disk Usage Statistics GUI: Filelight
+    - GUI File Manager: Dolphin
+    - GUI Text Editor: Kate
+
+</details>
