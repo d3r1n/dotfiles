@@ -1,0 +1,109 @@
+{
+    "telemetry.telemetryLevel": "off",
+
+    // Editor Settings
+    "editor.fontFamily": "FiraCode Nerd Font Mono",
+    "editor.fontLigatures": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.lineNumbers": "on",
+    "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.wordWrap": "off",
+    "editor.detectIndentation": true,
+    "editor.mouseWheelZoom": true,
+    "editor.inlineSuggest.enabled": true,
+    "editor.fontSize": 14,
+    "editor.lineHeight": 30,
+    "editor.stickyTabStops": true,
+    "editor.smoothScrolling": false,
+    "editor.fontWeight": "normal",
+
+    // Window  and Workbench Settings
+    "window.zoomLevel": 1,
+    "window.titleBarStyle": "custom",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "workbench.colorTheme": "Tokyo Night Storm",
+    "workbench.layoutControl.enabled": true,
+    "workbench.sideBar.location": "right",
+
+    // Explorer Settings
+    "explorer.compactFolders": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+
+    // Discord Settings
+    "discord.detailsIdling": "Check out my website!",
+    "discord.lowerDetailsEditing": "📁 Workspace: {workspace}",
+    "discord.lowerDetailsDebugging": "",
+    "discord.largeImageIdling": "Idling...",
+    "discord.lowerDetailsIdling": "d3r1n.com",
+    "discord.detailsEditing": "✏️ Editing: {file_name}",
+    "discord.idleTimeout": 900,
+
+    // Vim Settings
+    "vim.leader": "<space>",
+    "vim.useCtrlKeys": true,
+    "vim.easymotion": true,
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-c>": false,
+        "<C-v>": false,
+        "<C-x>": false
+    },
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "j"],
+            "after": ["<Esc>"]
+        }
+    ],
+
+    // Terminal Settings
+    "terminal.integrated.gpuAcceleration": "on",
+    "terminal.external.linuxExec": "fish",
+    "terminal.integrated.defaultProfile.linux": "fish",
+
+    // Git Settings
+    "git.decorations.enabled": false,
+    "git.enableStatusBarSync": false,
+
+    // Copilot Settings
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": true,
+        "plaintext": true,
+        "markdown": true,
+        "rust": true
+    },
+
+    // Live Share Settings
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveshare.presence": true,
+
+    // Language Settings
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+
+    "go.toolsManagement.autoUpdate": true,
+    "[go]": {
+        "editor.formatOnSave": false,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": false
+        }
+    },
+
+    "javascript.updateImportsOnFileMove.enabled": "always",
+
+    "[vue]": {
+        "editor.defaultFormatter": "Vue.volar"
+    },
+
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}

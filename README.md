@@ -4,15 +4,19 @@ This repository currently not complete, I don't recommend using my configuration
 # d3r1n's dotfiles
 
 ## VSCode
-
-You can view all installed plugins at [`vscode/extensions.txt`](./vscode/extensions.txt)
+To install vscode settings and extensions, execute the following command:
+```sh
+cd vscode
+python3 install.py
+```
+> You can view all installed plugins at [`vscode/extensions.txt`](./vscode/extensions.txt)
 
 ## My setup
 - OS: Arco Linux
 - WM: None (I'm not using a window manager for now)
 - Terminal: Alacritty
 - Shell: fish + oh-my-fish
-- Editor: VSCode
+- Editor: VSCode + Vim keybindings
 - File manager: xplr
 - Browser: Chromium/Chrome
 - Music player: Spotify
@@ -39,8 +43,7 @@ You can view all installed plugins at [`vscode/extensions.txt`](./vscode/extensi
 <details>
     <summary><h2>Other Tools I Like</h2></summary>
 
-    - Disk Usage Statistics GUI: Filelight
-    - GUI File Manager: Dolphin
-    - GUI Text Editor: Kate
+- Disk Usage Statistics GUI: Filelight
+- GUI File Manager: Dolphin
 
 </details>
