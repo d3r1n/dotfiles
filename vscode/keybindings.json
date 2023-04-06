@@ -1,0 +1,15 @@
+// Place your key bindings in this file to override the defaults
+[
+    // Explorer New File
+    {
+        "key": "ctrl+n",
+        "command": "explorer.newFile",
+        "when": "explorerViewletFocus && explorerViewletVisible"
+    },
+    // Explorer New Folder
+    {
+        "key": "ctrl+shift+n",
+        "command": "explorer.newFolder",
+        "when": "explorerViewletFocus && explorerViewletVisible"
+    }
+]

@@ -20,6 +20,7 @@ def install_extensions():
 
 def move_settings():
     SETTINGS_FILE = 'settings.jsonc'
+    KEYBINDINGS_FILE = 'keybindings.json'
     
     if OS == 'linux':
         SETTINGS_DIR = str(pathlib.Path.home()) + '/.config/Code/User/'
@@ -27,6 +28,7 @@ def move_settings():
         SETTINGS_DIR = '%APPDATA%\\Code\\User\\'
     
     cmd(['cp', SETTINGS_FILE, SETTINGS_DIR + "settings.json"])
+    cmd(['cp', KEYBINDINGS_FILE, SETTINGS_DIR + "keybindings.json"])
 
 def main():
     install_extensions()
