@@ -19,7 +19,7 @@ font:
 
   offset:
     x: 0
-    y: 1
+    y: 2
 
 schemes:
   # Tokyo Night theme, based on both:

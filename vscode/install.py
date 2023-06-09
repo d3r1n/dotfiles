@@ -2,15 +2,6 @@ import subprocess, pathlib
 
 cmd = subprocess.run
 
-# determine OS
-OS = None
-if cmd(['uname', '-a'], stdout=subprocess.DEVNULL).returncode == 0:
-    OS = 'linux'
-elif cmd(['systeminfo'], stdout=subprocess.DEVNULL).returncode == 0:
-    OS = 'windows'
-else:
-    raise Exception('Unknown OS')
-
 def install_extensions():
     EXT_FILE = 'extensions.txt'
     with open(EXT_FILE, 'r') as f:
@@ -19,13 +10,9 @@ def install_extensions():
         cmd(['code', '--install-extension', ext])
 
 def move_settings():
-    SETTINGS_FILE = 'settings.jsonc'
+    SETTINGS_FILE = 'settings.json'
     KEYBINDINGS_FILE = 'keybindings.json'
-    
-    if OS == 'linux':
-        SETTINGS_DIR = str(pathlib.Path.home()) + '/.config/Code/User/'
-    elif OS == 'windows':
-        SETTINGS_DIR = '%APPDATA%\\Code\\User\\'
+    SETTINGS_DIR = str(pathlib.Path.home()) + '/.config/Code/User/'
     
     cmd(['cp', SETTINGS_FILE, SETTINGS_DIR + "settings.json"])
     cmd(['cp', KEYBINDINGS_FILE, SETTINGS_DIR + "keybindings.json"])

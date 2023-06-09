@@ -15,8 +15,8 @@ python3 install.py
 - OS: Arco Linux
 - WM: None (I'm not using a window manager for now)
 - Terminal: Alacritty
-- Shell: fish + oh-my-fish
-- Editor: VSCode + Vim keybindings
+- Shell: fish + starship
+- Editor: VSCode + Vim keybindings (I'm using VSCode for now, but I'm planning to switch to neovim)
 - File manager: xplr
 - Browser: Chromium/Chrome
 - Music player: Spotify
@@ -26,17 +26,14 @@ python3 install.py
 - Terminal multiplexer: Zellij
 - Terminal Recorder: Asciinema
 - Font: Nerd Font Fira Code
-- Color scheme: Gruvbox
-- C/C++ compiler + Debugger: CLang + GDB
-- Git client: Git
-- Git GUI: Git Kraken
-- Package manager: Yay
+- Color scheme: Gruvbox, Github Dark, Nord
+- C/C++ compiler + Debugger: CLang + LLDB
+- Git client: GitUI (rust)
 - Hex viewer: Hexyl
 - Fetch: macchina
 - System monitor: htop
 - `cd` replacement: zoxide
 - LoC counter: tokei
-- Programming Tracker: wakatime + wakapi
 - Password manager: Bitwarden
 - Browser Tab Manager: Taby
 
