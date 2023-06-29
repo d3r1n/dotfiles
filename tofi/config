@@ -1,0 +1,22 @@
+width = 800
+height = 400
+
+border-width = 0
+outline-width = 2
+outline-color = #3b4252
+corner-radius = 5
+padding-left = 15
+padding-top = 15
+result-spacing = 15
+num-results = 7
+
+font = FiraCode Nerd Font Mono
+font-size = 16
+
+prompt-color = #b48ead
+input-color = #eceff4
+default-result-color = #e5e9f0
+selection-color = #81a1c1
+background-color = #2e3440ec
+
+prompt-text = "Run: "
