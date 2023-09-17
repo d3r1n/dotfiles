@@ -1,26 +1,10 @@
-# WIP
-This repository currently not complete, I don't recommend using my configurations for now. I'm optimizing and improving them. If you want to be notified, subscribe/watch the releases of this repository.
-
 # d3r1n's dotfiles
 
-## VSCode
-To install vscode settings and extensions, execute the following command:
-```sh
-cd vscode
-python3 install.py
-```
-> You can view all installed plugins at [`vscode/extensions.txt`](./vscode/extensions.txt)
-
 ## My setup
-- OS: Arch Linux
-- WM: Sway
-- Bar: Waybar
-- App launcher: Tofi
-- Terminal: Alacritty
-- AUR Helper: Paru
-- Shell: bash/zsh + starship
-- Editor: VSCode + Vim keybindings / Neovim
-- File manager: xplr
+- Terminal: Kitty
+- Shell: nushell
+- Editor: Neovim
+- File manager: joshuto
 - Browser: Chromium/Chrome
 - Music player: Spotify
 - Video player: VLC
@@ -37,7 +21,7 @@ python3 install.py
 - `cd` replacement: zoxide
 - LoC counter: tokei
 - Password manager: Bitwarden
-- Browser Tab Manager: Tab Manager Plus
+- Browser Tab Manager: Tablerone
 - Archive Manager: 7zip
 
 <details>
