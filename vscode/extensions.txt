@@ -1,0 +1,17 @@
+# Add extension here or use the script to update your extension list
+
+aaron-bond.better-comments
+DavidAnson.vscode-markdownlint
+esbenp.prettier-vscode
+jdinhlife.gruvbox
+jeff-hykin.better-cpp-syntax
+moalamri.inline-fold
+ms-python.python
+ms-python.vscode-pylance
+ms-vscode-remote.remote-containers
+PKief.material-icon-theme
+rust-lang.rust-analyzer
+sumneko.lua
+tamasfe.even-better-toml
+usernamehw.errorlens
+vscodevim.vim

@@ -1,9 +1,10 @@
 # d3r1n's dotfiles
 
 ## My setup
+
 - Terminal: Kitty
-- Shell: nushell
-- Editor: Neovim
+- Shell: zsh + oh-my-zsh
+- Editor: vscode + vim keybindings (looking into [lapce editor](https://lapce.dev))
 - File manager: joshuto
 - Browser: Chromium/Chrome
 - Music player: Spotify
@@ -24,10 +25,6 @@
 - Browser Tab Manager: Tablerone
 - Archive Manager: 7zip
 
-<details>
-    <summary><h2>Other Tools I Like</h2></summary>
+## Other Tools I Like
 
-- Disk Usage Statistics GUI: Filelight
-- GUI File Manager: Dolphin
-
-</details>
+- Disk usage viewer: Filelight
