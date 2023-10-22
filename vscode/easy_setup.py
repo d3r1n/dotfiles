@@ -99,7 +99,6 @@ def action_config(is_update: bool):
                 op_2()
                 op_1()
 
-        print(command)
         result = run_cmd(command, False)
 
         if result is None:
@@ -122,7 +121,7 @@ def main():
         parser.add_argument("-c", "--update-config", action="store_true", dest="up_co",
                             help="update `settings.json`")
         
-        parser.add_argument("action", action="store", type=str, help="`setup` to execute setup, `update` to update config")
+        parser.add_argument("-a", "--action", action="store", type=str, required=False, help="`setup` to execute setup, `update` to update config")
         
         args = parser.parse_args()
 
