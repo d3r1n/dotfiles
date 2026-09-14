@@ -1,0 +1,8 @@
+[user]
+	email = derinondereren@gmail.com
+	name = Derin Eren
+	signingkey = /home/bitattack/.ssh/github_ssh
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true

@@ -1,0 +1,134 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+	// best feature ngl
+	"context_servers": {
+  "mcp-server-playwright": {
+   "enabled": true,
+   "remote": false,
+   "settings": {
+    "browser": "chromium",
+    "headless": false
+   }
+  }
+ },
+ "cli_default_open_behavior": "existing_window",
+ "outline_panel": {
+  "dock": "left"
+ },
+ "collaboration_panel": {
+  "dock": "left"
+ },
+ "git_panel": {
+  "dock": "left"
+ },
+ "agent": {
+		"dock": "right",
+  "default_model": {
+			"effort": "high",
+   "provider": "copilot_chat",
+			"model": "gemini-3.1-pro-preview",
+			"enable_thinking": true,
+		},
+		"favorite_models": [],
+		"model_parameters": [],
+	},
+	"edit_predictions": {
+		"provider": "copilot",
+	},
+	"agent_servers": {
+		"claude-acp": {
+   "default_config_options": {
+    "model": "sonnet",
+    "mode": "acceptEdits"
+   },
+   "type": "registry"
+  },
+  "github-copilot-cli": {
+			"default_config_options": {
+    "allow_all": "on"
+   },
+   "type": "registry",
+		},
+	},
+	"vim": {
+		"toggle_relative_line_numbers": true,
+	},
+	"vim_mode": true,
+
+	"ui_font_size": 16,
+	"theme": {
+		"mode": "system",
+		"light": "Gruvbox Light",
+		"dark": "Gruvbox Dark",
+	},
+	"buffer_font_family": "FiraCode Nerd Font Mono",
+	"buffer_font_size": 16.0,
+	"buffer_font_features": {
+		"liga": true,
+	},
+
+	"colorize_brackets": true,
+	"tab_size": 4,
+	"hard_tabs": true,
+
+	"minimap": {
+		"thumb": "hover",
+		"show": "auto",
+	},
+	"diagnostics": {
+		"inline": {
+			"enabled": true,
+		},
+	},
+	"project_panel": {
+		"dock": "right",
+	},
+	"tabs": {
+		"file_icons": true,
+	},
+	"terminal": {
+		"font_features": {
+			"liga": true,
+		},
+	},
+	"title_bar": {
+		"show_menus": false,
+		"show_sign_in": false,
+	},
+
+	"auto_install_extensions": {
+		"lua": true,
+		"zig": true,
+		"toml": true,
+		"html": true,
+		"java": true,
+		"make": true,
+		"typst": true,
+		"svelte": true,
+		"groovy": true,
+		"comment": true,
+		"marksman": true,
+		"dockerfile": true,
+		"git-firefly": true,
+	},
+
+	"telemetry": {
+		"diagnostics": false,
+		"metrics": false,
+	},
+
+	"lsp": {
+		"jdtls": {
+			"settings": {
+				"jdtls_launcher": "/home/bitattack/.local/share/jdtls/jdt-language-server-1.57.0-202602261110/bin/jdtls",
+			},
+		},
+	},
+}
